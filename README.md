@@ -25,10 +25,20 @@ Balanced Accuracy Score:
 ```
 
 Confusion Matrix:
-
+|                      | Predicted High Risk | Predicted Low Risk |
+| -------------------- | ------------------- | ------------------ |
+| **Actual High Risk** | 76                  | 25                 |
+| **Actual Low Risk**  | 7288                | 9816               |
 
 Classification Report: 
+```
+                   pre       rec       spe        f1       geo       iba       sup
 
+  high_risk       0.01      0.75      0.57      0.02      0.66      0.44       101
+   low_risk       1.00      0.57      0.75      0.73      0.66      0.42     17104
+
+avg / total       0.99      0.57      0.75      0.72      0.66      0.42     17205
+```
 
 The Naive Random Oversampling model accurately predicts credit risk 66.3% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.75 for high risk and 0.57 for low risk. This means that it correctly identifies 75% of all high risk and 57% for all low risk.
 
@@ -42,10 +52,20 @@ Balanced Accuracy Score:
 ```
 
 Confusion Matrix:
-
+|                      | Predicted High Risk | Predicted Low Risk |
+| -------------------- | ------------------- | ------------------ |
+| **Actual High Risk** | 64                  | 37                 |
+| **Actual Low Risk**  | 5290                | 11814              |
 
 Classification Report: 
+```
+                   pre       rec       spe        f1       geo       iba       sup
 
+  high_risk       0.01      0.63      0.69      0.02      0.66      0.44       101
+   low_risk       1.00      0.69      0.63      0.82      0.66      0.44     17104
+
+avg / total       0.99      0.69      0.63      0.81      0.66      0.44     17205
+```
 
 The SMOTE Oversampling model accurately predicts credit risk 66.2% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.63 for high risk and 0.69 for low risk. This means that it correctly identifies 63% of all high risk and 69% for all low risk.
 
@@ -59,10 +79,20 @@ Balanced Accuracy Score:
 ```
 
 Confusion Matrix:
-
+|                      | Predicted High Risk | Predicted Low Risk |
+| -------------------- | ------------------- | ------------------ |
+| **Actual High Risk** | 70                  | 31                 |
+| **Actual Low Risk**  | 10324               | 6780               |
 
 Classification Report: 
+```
+                   pre       rec       spe        f1       geo       iba       sup
 
+  high_risk       0.01      0.69      0.40      0.01      0.52      0.28       101
+   low_risk       1.00      0.40      0.69      0.57      0.52      0.27     17104
+
+avg / total       0.99      0.40      0.69      0.56      0.52      0.27     17205
+```
 
 The Cluster Centroids model accurately predicts credit risk 54.4% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.69 for high risk and 0.40 for low risk. This means that it correctly identifies 69% of all high risk and 40% for all low risk.
 
@@ -76,10 +106,20 @@ Balanced Accuracy Score:
 ```
 
 Confusion Matrix:
-
+|                      | Predicted High Risk | Predicted Low Risk |
+| -------------------- | ------------------- | ------------------ |
+| **Actual High Risk** | 73                  | 28                 |
+| **Actual Low Risk**  | 7412                | 9692               |
 
 Classification Report: 
+```
+                   pre       rec       spe        f1       geo       iba       sup
 
+  high_risk       0.01      0.72      0.57      0.02      0.64      0.42       101
+   low_risk       1.00      0.57      0.72      0.72      0.64      0.40     17104
+
+avg / total       0.99      0.57      0.72      0.72      0.64      0.40     17205
+```
 
 The SMOTEENN model accurately predicts credit risk 64.5% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.72 for high risk and 0.57 for low risk. This means that it correctly identifies 72% of all high risk and 57% for all low risk.
 
@@ -97,10 +137,20 @@ Balanced Accuracy Score:
 ```
 
 Confusion Matrix:
-
+|                      | Predicted High Risk | Predicted Low Risk |
+| -------------------- | ------------------- | ------------------ |
+| **Actual High Risk** | 71                  | 30                 |
+| **Actual Low Risk**  | 2153                | 14951              |
 
 Classification Report: 
+```
+                   pre       rec       spe        f1       geo       iba       sup
 
+  high_risk       0.03      0.70      0.87      0.06      0.78      0.60       101
+   low_risk       1.00      0.87      0.70      0.93      0.78      0.62     17104
+
+avg / total       0.99      0.87      0.70      0.93      0.78      0.62     17205
+```
 
 The SMOTEENN model accurately predicts credit risk 78.9% of the time. Additionally, the precision of the model for high risk is 0.03 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 3% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.70 for high risk and 0.87 for low risk. This means that it correctly identifies 70% of all high risk and 87% for all low risk.
 
@@ -114,10 +164,20 @@ Balanced Accuracy Score:
 ```
 
 Confusion Matrix:
-
+|                      | Predicted High Risk | Predicted Low Risk |
+| -------------------- | ------------------- | ------------------ |
+| **Actual High Risk** | 93                  | 8                  |
+| **Actual Low Risk**  | 983                 | 16121              |
 
 Classification Report: 
+```
+                   pre       rec       spe        f1       geo       iba       sup
 
+  high_risk       0.09      0.92      0.94      0.16      0.93      0.87       101
+   low_risk       1.00      0.94      0.92      0.97      0.93      0.87     17104
+
+avg / total       0.99      0.94      0.92      0.97      0.93      0.87     17205
+```
 
 The SMOTEENN model accurately predicts credit risk 93.2% of the time. Additionally, the precision of the model for high risk is 0.09 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 9% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.92 for high risk and 0.94 for low risk. This means that it correctly identifies 92% of all high risk and 94% for all low risk.
 
