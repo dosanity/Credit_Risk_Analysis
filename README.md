@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Credit risk is the possibility of a loss resulting from a borrower's failure to repay a loan or meet contractual obligations. To determine credit risk, it requires the creditors to evaluate customers based on their credit score. As a result from this, there are classification imbalances with credit risk because good loans outnumber riskier loans. We are tasked to build a classification model using machine learning statistical algorithms to make predictions on the credit risk of a client. In our analysis, we will be using the credit card credit dataset from LendingClub, a peer-to-peer lending services company. We will utilize different machine learning techniques such as `RandomOverSampler`, `SMOTE`, `ClusterCentroids`, `SMOTEENN`, `BalancedRandomForestClassifier`, and `EasyEnsembleClassifier` to train and evaluate data to build a recommendation for the best machine learning model to use for credit risk predictions.
+Credit risk is the possibility of a loss resulting from a borrower's failure to repay a loan or meet contractual obligations. To determine credit risk, it requires the creditors to evaluate customers based on their credit score. As a result from this, there are classification imbalances with credit risk because good loans outnumber riskier loans. We are tasked to build a classification model using machine learning statistical algorithms to make predictions on the credit risk of a client. In our analysis, we will be using the credit card credit dataset from [LendingClub](https://www.lendingclub.com/), a peer-to-peer lending services company. We will utilize different machine learning techniques such as `RandomOverSampler`, `SMOTE`, `ClusterCentroids`, `SMOTEENN`, `BalancedRandomForestClassifier`, and `EasyEnsembleClassifier` to train and evaluate data to build a recommendation for the best machine learning model to use for credit risk predictions.
 
 ## Resources
 
@@ -40,7 +40,7 @@ Classification Report:
 avg / total       0.99      0.57      0.75      0.72      0.66      0.42     17205
 ```
 
-The Naive Random Oversampling model accurately predicts credit risk 66.3% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.75 for high risk and 0.57 for low risk. This means that it correctly identifies 75% of all high risk and 57% for all low risk.
+The Naive Random Oversampling model accurately predicts credit risk 66.3% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% of the time and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.75 for high risk and 0.57 for low risk. This means that it correctly identifies 75% of all high risk and 57% for all low risk.
 
 #### SMOTE Oversampling
 
@@ -67,7 +67,7 @@ Classification Report:
 avg / total       0.99      0.69      0.63      0.81      0.66      0.44     17205
 ```
 
-The SMOTE Oversampling model accurately predicts credit risk 66.2% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.63 for high risk and 0.69 for low risk. This means that it correctly identifies 63% of all high risk and 69% for all low risk.
+The SMOTE Oversampling model accurately predicts credit risk 66.2% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% of the time and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.63 for high risk and 0.69 for low risk. This means that it correctly identifies 63% of all high risk and 69% for all low risk.
 
 #### Cluster Centroids (Undersampling)
 
@@ -94,7 +94,7 @@ Classification Report:
 avg / total       0.99      0.40      0.69      0.56      0.52      0.27     17205
 ```
 
-The Cluster Centroids model accurately predicts credit risk 54.4% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.69 for high risk and 0.40 for low risk. This means that it correctly identifies 69% of all high risk and 40% for all low risk.
+The Cluster Centroids model accurately predicts credit risk 54.4% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% of the time and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.69 for high risk and 0.40 for low risk. This means that it correctly identifies 69% of all high risk and 40% for all low risk.
 
 #### SMOTEENN (Combination Sampling)
 
@@ -121,7 +121,7 @@ Classification Report:
 avg / total       0.99      0.57      0.72      0.72      0.64      0.40     17205
 ```
 
-The SMOTEENN model accurately predicts credit risk 64.5% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.72 for high risk and 0.57 for low risk. This means that it correctly identifies 72% of all high risk and 57% for all low risk.
+The SMOTEENN model accurately predicts credit risk 64.5% of the time. Additionally, the precision of the model for high risk is 0.01 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 1% of the time and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.72 for high risk and 0.57 for low risk. This means that it correctly identifies 72% of all high risk and 57% for all low risk.
 
 ### Ensemble Learners
 
@@ -152,7 +152,7 @@ Classification Report:
 avg / total       0.99      0.87      0.70      0.93      0.78      0.62     17205
 ```
 
-The SMOTEENN model accurately predicts credit risk 78.9% of the time. Additionally, the precision of the model for high risk is 0.03 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 3% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.70 for high risk and 0.87 for low risk. This means that it correctly identifies 70% of all high risk and 87% for all low risk.
+The SMOTEENN model accurately predicts credit risk 78.9% of the time. Additionally, the precision of the model for high risk is 0.03 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 3% of the time and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.70 for high risk and 0.87 for low risk. This means that it correctly identifies 70% of all high risk and 87% for all low risk.
 
 #### AdaBoost Classifier
 
@@ -179,7 +179,7 @@ Classification Report:
 avg / total       0.99      0.94      0.92      0.97      0.93      0.87     17205
 ```
 
-The SMOTEENN model accurately predicts credit risk 93.2% of the time. Additionally, the precision of the model for high risk is 0.09 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 9% and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.92 for high risk and 0.94 for low risk. This means that it correctly identifies 92% of all high risk and 94% for all low risk.
+The SMOTEENN model accurately predicts credit risk 93.2% of the time. Additionally, the precision of the model for high risk is 0.09 and low risk is 1.00. In other words, when it predicts that a client is high risk, it is correct 9% of the time and when it predicts that a client is low risk, it is correct 100% of the time. The recall in our model 0.92 for high risk and 0.94 for low risk. This means that it correctly identifies 92% of all high risk and 94% for all low risk.
 
 ## Summary
 
@@ -192,5 +192,6 @@ The SMOTEENN model accurately predicts credit risk 93.2% of the time. Additional
 
 Based on the results, the best overall model is the AdaBoost Classifier or `EasyEnsembleClassifer`. This model has a 93.2% balanced accuracy score, precision rate of 9%, and sensitivity rate of 92% for high risk. The overall results were highest compared to the other models we tested in our analysis therefore this is the model we recommend to use.
 
+Although this model is the best compared to the other models in our test, it still has a low precision. Since the precision for high risk is only 0.09, when it predicts that a client is high risk, it is correct 9% of the time. As a result, the classifier returns a lot of false positives. This will benefit the credit card companies since it is better to reject predicted high risk individuals to avoid risky loans. 
 
 
