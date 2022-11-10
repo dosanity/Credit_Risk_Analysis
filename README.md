@@ -183,7 +183,14 @@ The SMOTEENN model accurately predicts credit risk 93.2% of the time. Additional
 
 ## Summary
 
++ `EasyEnsembleClassifer`: 93.2% accuracy, 9% precision, and 92% recall
++ `BalancedRandomForestClassifer`: 78.9% accuracy, 3% precision, and 70% recall
++ `SMOTE`: 66.2% accuracy, 1% precision, and 63% recall
++ `RandomOverSampler`: 66.3% accuracy, 1% precision, and 75% recall
++ `SMOTEENN`: 64.5% accuracy, 1% precision, and 72% recall 
++ `ClusterCentroids`: 54.4% accuracy, 1% precision, and 69% recall
 
+Based on the results, the best overall model is the AdaBoost Classifier or `EasyEnsembleClassifer`. This model has a 93.2% balanced accuracy score, precision rate of 9%, and sensitivity rate of 92% for high risk. The overall results were highest compared to the other models we tested in our analysis therefore this is the model we recommend to use.
 
 
 
