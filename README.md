@@ -6,7 +6,8 @@ Credit risk is the possibility of a loss resulting from a borrower's failure to 
 
 ## Resources
 
-+ Analysis Software: `Python 3.10`, `Jupyter Notebook 6.4.12`
++ Analysis Software: `Jupyter Notebook 6.4.12`
++ Programming Languages: `Python 3.10`
 + Data Source: `LoanStats_2019Q1.csv`
 
 ## Results
